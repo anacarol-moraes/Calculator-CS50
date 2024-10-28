@@ -1,4 +1,5 @@
-x = 1
-y= 2 
-z = x + y
+x = input ("What's X? ")
+y = input ("What's Y? ")
+ 
+z = int(x) + int(y)
 print (z) 
