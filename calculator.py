@@ -1,5 +1,9 @@
-x = float (input ("What's X? "))
-y = float (input ("What's Y? "))
+def main():
+    x = int (input("What's x? "))
+    print("x squared is", square(x))
 
-z =  round ( x / y, 2 )
-print (z)
+
+def square(n):
+    return n*n
+
+main()
